@@ -19,7 +19,7 @@ class NewAppController extends Controller
     public function createAppForm(Request $request)
     {
         $scopes = Scope::get();
-        return view('create-app-form222', ['scopes' => $scopes]);
+        return view('newapps.create-app-form', ['scopes' => $scopes]);
     }
 
     //Store in database
@@ -41,9 +41,6 @@ class NewAppController extends Controller
 
     }
 
-
-
-
     //Getting App against a user
     public function getApp()
     {
@@ -56,8 +53,7 @@ class NewAppController extends Controller
 
         // return $this->success(['App' => $data], 'App fetched successfully', 200);
 
-        return view('app', ['app' => $app]);
+        return view('newapps.app', ['app' => $app]);
     }
-
 
 }

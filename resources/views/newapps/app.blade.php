@@ -38,7 +38,7 @@
 	</style>
 </head>
 <body>
-	<h1>You have submitted following App</h1>
+	<h3>You have submitted following App</h3>
 
 	<table>
 		<tr>
