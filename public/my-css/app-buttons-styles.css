@@ -1,0 +1,13 @@
+
+  #create-app-button {
+    background-color: rgb(21, 109, 233);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  #create-app-button:hover {
+    background-color: rgb(123, 255, 0);
+    color: white;
+  }
